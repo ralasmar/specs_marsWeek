@@ -22,12 +22,14 @@ public class Mars {
         }
         //invoke landingCheck
         landing = landingCheck(50);
+        //invoke guessing game
+        new GuessingGame();
     }
 
     //function that returns a boolean and takes in parameter called minutesLeft
     //will print directions based on minutes left to touchdown
     public static boolean landingCheck(int minutesLeft) throws InterruptedException{
-        //for loop that initalizes the minute variable and increments it by 1 until reaching minutesLeft
+        //for loop that initializes the minute variable and increments it by 1 until reaching minutesLeft
         for(int minute = 0; minute<= minutesLeft; minute++){
             //if the minutes left is divisible by 3 and 2
             if(((minute%2) == 0) && ((minute%3) == 0)) {
