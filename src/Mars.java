@@ -22,7 +22,7 @@ public class Mars {
         }
         //invoke landingCheck
         landing = landingCheck(50);
-        //invoke guessing game
+        new MarsExpedition();
         new GuessingGame();
     }
 
