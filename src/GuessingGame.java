@@ -11,6 +11,7 @@ public class GuessingGame {
         System.out.println("enter your name here ");
         //save name to variable
         String name = scanner.nextLine();
+        System.out.println("Let's play a game. Try to guess the number I am thinking of between 1 and 100.");
         //create an instance of the random object
         Random random = new Random();
         //call method nextInt and pass in upper range bound
