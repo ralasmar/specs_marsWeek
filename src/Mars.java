@@ -24,6 +24,7 @@ public class Mars {
         landing = landingCheck(50);
         new MarsExpedition();
         new GuessingGame();
+        new FindingsList();
     }
 
     //function that returns a boolean and takes in parameter called minutesLeft

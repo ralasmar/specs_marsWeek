@@ -3,7 +3,7 @@ import java.util.Scanner;
 import java.util.Random;
 
 public class GuessingGame {
-    public static void main(String[] args) {
+    public GuessingGame() {
         Scanner scanner = new Scanner(System.in);
         //print greeting to player
         System.out.println("Hello! What is your name? ");

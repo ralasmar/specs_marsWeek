@@ -2,7 +2,7 @@ import java.util.Scanner;
 
 public class MarsExpedition  {
     //public arsExpedition constructor
-    public static void main(String[] args) throws InterruptedException {
+    public MarsExpedition() throws InterruptedException {
         Scanner input = new Scanner(System.in);
         System.out.println("Let's prepare for expedition...");
         System.out.println("Time to begin");
@@ -31,7 +31,7 @@ public class MarsExpedition  {
         } else if(teamMembers < 2){
             System.out.println("That's not enough. We need to send at least 2 more members");
             teamMembers = 2;
-        } else if(teamMembers == 2){
+        } else {
             System.out.println("Perfect, 2 team members it is!");
         }
 
